@@ -4,11 +4,10 @@ document.querySelector('#add').onclick = function(){
     }
 
     else{
-        document.querySelector('#show').innerHTML += `
+        document.querySelector('#show-list').innerHTML += `
             <div class="task">
-            <input type="checkbox" class="checkbox">
                 <span id="taskname">
-                
+                <input type="checkbox" class="checkbox">
                 ${document.querySelector('#input').value}
                 
                 </span>
