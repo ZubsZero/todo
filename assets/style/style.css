@@ -49,7 +49,7 @@ label {
 
 button {
     font-size: 20px;
-    width:70px;
+    width:79px;
     height: 30px;
     border-radius: 10px;
     border: none;
@@ -122,8 +122,13 @@ input {
 .check {
     float: left;
     margin:  -8px;
+  
 }
 
 .addlist {
     width: 300px;
+}
+
+.check:checked + #taskname {
+    text-decoration: line-through;
 }
