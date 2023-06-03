@@ -60,7 +60,7 @@ button {
 input {
     height: 30px;
     border-radius: 10px;
-    width: 200px;
+    width: 30px;
 }
 
 .output {
@@ -71,7 +71,7 @@ input {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    
+    align-items: flex-start;
 }
 
 
@@ -88,6 +88,7 @@ input {
     width: 20px;
     border-radius: 0px;
     height: 20px;
+    float: right;
     
 }
 
@@ -95,8 +96,10 @@ input {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    position: relative;
-    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    float: unset;
+    padding: 8px;
 
 
 
@@ -106,8 +109,21 @@ input {
     font-size: 12px;
 }
 
-.show-list {
-    position: relative;
-    width: 100%;
-    margin-right: 50px;
+
+#input {
+    font-size: 20px;
+}
+
+.lists {
+    width: 100px;
+
+}
+
+.check {
+    float: left;
+    margin:  -8px;
+}
+
+.addlist {
+    width: 300px;
 }
